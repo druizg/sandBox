@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface STIViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *aMessage;
 
 @end
